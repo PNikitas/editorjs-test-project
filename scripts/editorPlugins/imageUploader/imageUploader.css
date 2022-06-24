@@ -1,0 +1,15 @@
+.image-uploader__input {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.image-uploader__input:focus {
+    outline: none;
+}
+
+.image-uploader__image {
+    max-width: 100%;
+}

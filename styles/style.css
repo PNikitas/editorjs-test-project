@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    background: ghostwhite;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.editor {
+    width: 100%;
+}
+
+.editor__header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.editor__title {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.editor__button {
+    height: min-content;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: darkseagreen;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+
+.editor__field {
+    margin: 0 10%;
+    background: white;
+}
+
