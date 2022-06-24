@@ -21,7 +21,7 @@ class ImageUploader {
 
         input.classList.add('image-uploader__input');
         input.placeholder = 'Type an image URL...';
-        input.value = this.data && this.data.url ? this.data.url : '';
+        input.value = this.data?.url || '';
 
         input.addEventListener('paste', (event) => {
             this._createImage(event.clipboardData.getData('text'));
